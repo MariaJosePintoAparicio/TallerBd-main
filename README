@@ -97,7 +97,8 @@ descendente.
 17. Devuelve una lista con 2 filas a partir de la cuarta fila de la tabla fabricante.
 La cuarta fila también se debe incluir en la respuesta.
 
-
+    SELECT * 
+    FROM fabricante LIMIT 2 OFFSET 3;
 
 18. Lista el nombre y el precio del producto más barato. (Utilice solamente las
 cláusulas ORDER BY y LIMIT)
